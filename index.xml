@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <abc:product xmlns:abc="www.abc.com" >
+        <abc:name >iphone X</abc:name>
+        <abc:price>100K</abc:price>
+        <abc:color>black</abc:color>
+    </abc:product>
+
+    <xyz:product  xmlns:xyz="www.xyz.com">
+        <xyz:name >iphone 11</xyz:name>
+        <xyz:price>150K</xyz:price>
+        <xyz:color>black</xyz:color>
+    </xyz:product>
+
+    <product >
+        <name >iphone 12</name>
+        <price>200K</price>
+        <color>purple</color>
+    </product>
+</products>
