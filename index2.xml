@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dtd 1 -->
+<!-- <!DOCTYPE smartphones [
+    <!ELEMENT smartphones (phone1,phone2,phone3)>
+    <!ELEMENT phone1 (#PCDATA)>
+    <!ELEMENT phone2 (#PCDATA)>
+    <!ELEMENT phone3 (#PCDATA)>
+    ]>
+<smartphones>
+    <phone1>
+        name:iphone X
+        color:black
+        price:100k
+    </phone1>
+    <phone2>
+        name:iphone 11
+        color:purple
+        price:150k
+    </phone2>
+    <phone3>
+        name:iphone 12
+        color:silver
+        price:200k
+    </phone3>
+</smartphones> -->
+
+<!-- dtd 2 -->
+<!DOCTYPE smartphones [
+    <!ELEMENT smartphones (phone+)>
+    <!ELEMENT phone (name,color,price)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ATTLIST phone id CDATA "1" >
+    ]>
+<smartphones>
+    <phone id="1">
+       <name>iphoneX</name>
+       <color>black</color>
+       <price>100k</price>
+    </phone>
+    <phone id="2">
+       <name>iphone11</name> 
+       <color>purple</color>
+       <price>150k</price>
+    </phone>
+    <phone id="3">
+        <name>iphone12</name>
+        <color>silver</color>
+        <price>200k</price>
+    </phone>
+</smartphones>
