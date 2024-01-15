@@ -1,7 +1,7 @@
 <?php
  $xml=new  DOMDOCUMENT();
- $xml -> load("index2.xml");
- if($xml -> validate()){
+ $xml -> load("index3.xml");
+ if($xml ->schemavalidate("session3.xsd")){
     echo"valid";
 } 
  else{

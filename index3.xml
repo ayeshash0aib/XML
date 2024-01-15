@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<employes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index3.xsd">
+
+<employe>
+    <name> ali</name>
+    <id>01</id>
+    <depart>accounts</depart>
+    <courses>
+       <course1>cpism</course1>
+       <course2>dism</course2>
+    </courses>
+</employe>
+
+<employe>
+    <name>hamza </name>
+    <id>02</id>
+    <depart>admin</depart>
+    <courses>
+        <course1>cpism</course1>
+        <course2>dism</course2>
+     </courses>
+</employe>
+
+<employe>
+    <name>maryam </name>
+    <id>03</id>
+    <depart>sales</depart>
+    <courses>
+        <course1>cpism</course1>
+        <course2>dism</course2>
+     </courses>
+</employe>
+
+<employe>
+    <name>jack </name>
+    <id>04</id>
+    <depart>sales</depart>
+    <courses>
+        <course1>cpism</course1>
+        <course2>dism</course2>
+     </courses>
+</employe>
+
+</employes>
