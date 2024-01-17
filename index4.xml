@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<products>
+    <product>
+        <name>iphone X</name>
+        <color>black</color>
+        <price>50k</price>
+    </product>
+
+    <product>
+        <name>iphone 11</name>
+        <color>black</color>
+        <price>100k</price>
+    </product>
+
+    <product>
+        <name>iphone 12</name>
+        <color>white</color>
+        <price>150k</price>
+    </product>
+
+    <product>
+        <name>iphone 13</name>
+        <color>Blue</color>
+        <price>200 k</price>
+    </product>
+</products>
